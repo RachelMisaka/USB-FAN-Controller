@@ -1,0 +1,32 @@
+# CMake / Ninja build output
+build/
+
+# .NET FanControl plugin build output
+tools/*/bin/
+tools/*/obj/
+
+# Stale IAR project (the CMake build is the only supported build)
+EWARM/
+
+# Local reference clone (downloaded for plugin API docs, not part of the project)
+FanControl.Releases-272/
+
+# CubeMX metadata (regenerated on every generate)
+.mxproject
+
+# CubeMX pre-generation backups
+*.bak
+**/Backup/
+
+# Toolchain / linker artifacts
+*.o
+*.obj
+*.elf
+*.map
+*.bin
+*.hex
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
