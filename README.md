@@ -93,12 +93,6 @@ USBFAN.ioc       STM32CubeMX project (regenerate-safe; SYS = Serial Wire keeps S
 cmake/           CMake presets + CubeMX CMake
 ```
 
-## Related
-
-The original 4-channel F407 (Custom HID) version lives in
-`C:\Users\Rachel\Documents\Hello World STM32\HW` — retired; `HW\traps.txt` still has
-useful USB/fan debugging lessons.
-
 ---
 
 # 中文说明 (Chinese)
